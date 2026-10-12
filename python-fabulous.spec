@@ -9,6 +9,7 @@ Group:		Development/Python
 URL:		https://pypi.org/project/fabulous/
 Source0:	https://pypi.org/packages/source/f/%{module}/%{module}-%{version}.tar.gz
 BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(setuptools)
 BuildArch:	noarch
 
 %description
